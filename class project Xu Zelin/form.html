@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Form</title>
+    <link rel="stylesheet" href="style/form.css">
+    <script>
+        function submit(){
+            window.location.href="https://www.baidu.com/";
+        }
+        function submit_form(){
+            window.location.href="survey_data.html";
+        }
+    </script>
+</head>
+<body>
+     <header>
+        <img style="width: 200px;height: 100px;float: left;margin-right: : 100px" src="image/campus.jpg">
+        <h1 style="text-align: center;font-size: 50px">Welcome to AUM!</h1>
+        <input type="text" style="height: 20px"><input onclick="submit()" type="button" value="search" style="height: 25px">
+    </header>
+             <div>
+        <nav id="nav_menu">
+    <ul>
+         <li style="margin-right: 90px"class="b2"><a href="index.html" class="b1">Home</a>
+            <ul>
+                <li><a href="#" class="b1">Dual enrollment</a></li>
+                <li><a href="#" class="b1">Student Type</a></li>
+                <li><a href="#" class="b1">Students Life</a></li>
+                <li><a href="#" class="b1">Health Services</a></li> 
+            </ul>
+        </li>
+        <li style="margin-right: 90px" class="b2"><a href="computer.html"  class="b1">Computer Science</a>
+            <ul>
+                <li><a href="#" class="b1" style="font-size: 15px">Accountability</a></li>
+                <li><a href="#" class="b1" style="font-size: 15px">Advocacy</a></li>
+                <li><a href="#" class="b1" style="font-size: 15px">Bridge Program</a></li>
+                <li><a href="#" class="b1" style="font-size: 15px">Program description</a></li>
+                <li><a href="#" class="b1" style="font-size: 15px">Degree to work</a></li>
+                <li><a href="#" class="b1" style="font-size: 15px">Information</a></li>
+            </ul>
+        </li>
+        <li style="margin-right: 90px;font-size: 15px" class="b2"><a href="form.html" class="b1">Teaching Assistant Application</a>
+            <ul>
+                <li class="b2"><a style="font-size: 10px" href="#" class="b1">Academic Overview </a></li>
+                <li class="b2"><a style="font-size: 10px" href="#" class="b1">Colleges</a></li>
+                <li class="b2"><a style="font-size: 10px" href="#" class="b1">Centers and Institutes</a></li>
+                <li class="b2"><a style="font-size: 10px" href="#" class="b1">Student Opportunities</a></li>
+                <li class="b2"><a style="font-size: 10px" href="#" class="b1">Apply Now</a></li>
+            </ul>
+        </li>
+       
+        <li style="margin-right: 25px" class="b2"><a href="GPA.html" class="b1">GPA calcalate</a>
+        <ul>
+            <li class="b2"><a style="font-size: 12px" href="#" class="b1">Calculate grades</a></li>
+            <li class="b2"><a style="font-size: 12px" href="#" class="b1">Contact us</a></li>
+        </ul>
+        </li>
+            </ul>
+  </nav>
+    </div>
+    <main>
+        <div align="center">
+            <h1>Please complete the information</h1>
+            <table>
+                <tr>
+                    <td>Student's name:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>ID:</td>
+                    <td><input type="text"</td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td><input type="radio" name="radiogroup1">male<input type="radio" name="radiogroup1">female</td>
+                </tr>
+                <tr>
+                    <td>GPA:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Submission date:</td>
+                    <td><input type="text"></td>
+                </tr>
+            </table>
+            <input type="button" value="Submit" style="margin-top: 50px" onclick="submit_form()">
+        </div>
+    </main>
+    <footer>
+        <ul style="list-style: none;float:left">
+            <li>Copyright:@Zelin Xu</li>
+            <li>emile:zxu2@aum.edu</li>
+            <li>Postcode:430400</li>
+        </ul>
+    </footer>
+  </body>
+  </html>

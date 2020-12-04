@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>GPA</title>
+    <link rel="stylesheet" href="style/gpa.css">
+    <script>
+        function submit(){
+            window.location.href="https://www.baidu.com/";
+        }
+    </script>
+    <script src="js/gpa.js"></script>
+</head>
+<body>
+    <header>
+        <img style="width: 200px;height: 100px;float: left;margin-right: : 100px" src="image/campus.jpg">
+        <h1 style="text-align: center;font-size: 50px">Welcome to AUM!</h1>
+        <input type="text" style="height: 20px"><input onclick="submit()" type="button" value="search" style="height: 25px">
+    </header>
+             <div>
+        <nav id="nav_menu">
+    <ul>
+         <li style="margin-right: 90px"class="b2"><a href="index.html" class="b1">Home</a>
+            <ul>
+                <li><a href="#" class="b1">Dual enrollment</a></li>
+                <li><a href="#" class="b1">Student Type</a></li>
+                <li><a href="#" class="b1">Students Life</a></li>
+                <li><a href="#" class="b1">Health Services</a></li> 
+            </ul>
+        </li>
+        <li style="margin-right: 90px" class="b2"><a href="computer.html"  class="b1">Computer Science</a>
+            <ul>
+                <li><a href="#" class="b1" style="font-size: 15px">Accountability</a></li>
+                <li><a href="#" class="b1" style="font-size: 15px">Advocacy</a></li>
+                <li><a href="#" class="b1" style="font-size: 15px">Bridge Program</a></li>
+                <li><a href="#" class="b1" style="font-size: 15px">Program description</a></li>
+                <li><a href="#" class="b1" style="font-size: 15px">Degree to work</a></li>
+                <li><a href="#" class="b1" style="font-size: 15px">Information</a></li>
+            </ul>
+        </li>
+        <li style="margin-right: 90px;font-size: 15px" class="b2"><a href="form.html" class="b1">Teaching Assistant Application</a>
+            <ul>
+                <li class="b2"><a style="font-size: 10px" href="#" class="b1">Academic Overview </a></li>
+                <li class="b2"><a style="font-size: 10px" href="#" class="b1">Colleges</a></li>
+                <li class="b2"><a style="font-size: 10px" href="#" class="b1">Centers and Institutes</a></li>
+                <li class="b2"><a style="font-size: 10px" href="#" class="b1">Student Opportunities</a></li>
+                <li class="b2"><a style="font-size: 10px" href="#" class="b1">Apply Now</a></li>
+            </ul>
+        </li>
+       
+        <li style="margin-right: 25px" class="b2"><a href="GPA.html" class="b1">GPA calcalate</a>
+        <ul>
+            <li class="b2"><a style="font-size: 12px" href="#" class="b1">Calculate grades</a></li>
+            <li class="b2"><a style="font-size: 12px" href="#" class="b1">Contact us</a></li>
+        </ul>
+        </li>
+            </ul>
+  </nav>
+    </div>
+    <main style="text-align: center">
+        <h1>GPA calculate tool</h1>
+        <table align="center">
+            <tr>
+                <td>Scores:</td>
+                <td><input type="text" id="scores"></td>
+            </tr>
+            <tr>
+                <td>hours:</td>
+                <td><input type="text" id="hours"></td>
+            </tr>
+        </table>
+      <table id="scores_table">
+        </table><br>
+        <input type="button" value="add" id="add"><input type="button" value="display" id="display"><input type="button" value="calculate" id="calculate">
+    </main>
+    <footer>
+        <ul style="list-style: none;float:left">
+            <li>Copyright:@Zelin Xu</li>
+            <li>emile:zxu2@aum.edu</li>
+            <li>Postcode:430400</li>
+        </ul>
+    </footer>
+  </body>
+  </html>
